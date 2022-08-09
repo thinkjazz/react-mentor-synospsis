@@ -1,9 +1,9 @@
 import React from 'react';
 import 'antd/dist/antd.css';
 import '../assets/style.css';
-import { PageHeader, Row, Tag, Typography } from 'antd';
+import { PageHeader, Row, Tag, Typography, Card } from 'antd';
 import { CompassOutlined, UserOutlined, CodeTwoTone } from '@ant-design/icons';
-const { Paragraph, Text, Link } = Typography;
+const { Paragraph, Title, Text, Link } = Typography;
 
 const content = (
   <>
@@ -37,7 +37,7 @@ const Content = ({ children }) => (
   </Row>
 );
 
-const MentorBio = () => (
+const MentorHelp = () => (
   <PageHeader
     title="Ройч Бартмосс"
     subTitle="Night City, USA"
@@ -71,4 +71,4 @@ const MentorBio = () => (
   </PageHeader>
 );
 
-export default MentorBio;
+export default MentorHelp;
