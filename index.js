@@ -5,7 +5,7 @@ import { Card } from 'antd';
 
 ReactDOM.render(
   <Card>
-    <Biography />{' '}
+    <Biography />
   </Card>,
   document.getElementById('container')
 );
