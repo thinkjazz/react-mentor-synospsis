@@ -37,7 +37,7 @@ const Content = ({ children }) => (
   </Row>
 );
 
-const App = () => (
+const Bio = () => (
   <PageHeader
     title="Ройч Бартмосс"
     subTitle="Night City, USA"
@@ -71,4 +71,4 @@ const App = () => (
   </PageHeader>
 );
 
-export default App;
+export default Bio;

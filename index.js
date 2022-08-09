@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Biography from './Components/MentorBio.jsx';
+import MentorBio from './Components/MentorBio.jsx';
 import { Card } from 'antd';
 
 ReactDOM.render(
   <Card>
-    <Biography />
+    <MentorBio />
   </Card>,
   document.getElementById('container')
 );
