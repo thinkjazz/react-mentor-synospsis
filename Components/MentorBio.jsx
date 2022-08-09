@@ -37,7 +37,7 @@ const Content = ({ children }) => (
   </Row>
 );
 
-const Bio = () => (
+const MentorBio = () => (
   <PageHeader
     title="Ройч Бартмосс"
     subTitle="Night City, USA"
@@ -71,4 +71,4 @@ const Bio = () => (
   </PageHeader>
 );
 
-export default Bio;
+export default MentorBio;
