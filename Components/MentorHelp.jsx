@@ -1,9 +1,9 @@
 import React from 'react';
 import 'antd/dist/antd.css';
 import '../assets/style.css';
-import { PageHeader, Row, Tag, Typography } from 'antd';
+import { PageHeader, Row, Tag, Typography, Divider, List } from 'antd';
 import { CompassOutlined, UserOutlined, CodeTwoTone } from '@ant-design/icons';
-const { Paragraph, Title, Divider, List, Text, Link } = Typography;
+const { Paragraph, Title,  Text, Link } = Typography;
 
 const data = [
   'Интересно поработать с тестовыми фреймворками на Typescript.',
@@ -20,7 +20,19 @@ const content = (
   <>
     <Paragraph>
       <Title level={3}>С чем могу помочь</Title>
+    
+      <List
+       
+        dataSource={data}
+        renderItem={(item) => (
+          <List.Item>
+            <Typography.Text >🧠</Typography.Text> {item}
+          </List.Item>
+        )}
+      />
     </Paragraph>
+
+    
     <Paragraph>
       Глубоко изучил весь процесс разработки ПО, поработав на различных позициях
       (Support, Frontend, Fullstack, Аналитик, PM, Teamlead) как на стороне
