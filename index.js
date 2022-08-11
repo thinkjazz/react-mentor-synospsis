@@ -2,16 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import MentorBio from './Components/MentorBio.jsx';
 import MentorHelp from './Components/MentorHelp.jsx';
-import { Card } from 'antd';
+import { Card, Space } from 'antd';
 
 ReactDOM.render(
   <div>
-    <Card>
-      <MentorBio />
-    </Card>
-    <Card>
-      <MentorHelp />
-    </Card>
+    <Space direction="vertical" size="middle" style={{ display: 'flex' }}>
+      <Card>
+        <MentorBio />
+      </Card>
+
+      <Card>
+        <MentorHelp />
+      </Card>
+    </Space>
   </div>,
   document.getElementById('container')
 );
