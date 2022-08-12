@@ -19,13 +19,13 @@ const data = [
 const content = (
   <>
     <Paragraph>
-      <Title level={3}>С чем могу помочь</Title>
+      <Title level={3}>С чем могу помочь 🧠</Title>
 
       <List
         dataSource={data}
         renderItem={(item) => (
           <List.Item>
-            <Typography.Text>🧠</Typography.Text> {item}
+            <Typography.Text> ●</Typography.Text> {item}
           </List.Item>
         )}
       />
