@@ -39,6 +39,14 @@
   margin-left: 8px;
 }
 
+#container {
+  background: #ececec;
+}
+/* .site-card-border-less-wrapper {
+  padding: 30px;
+  background: #ececec;
+} */
+
 @media (max-width: 768px) {
   .image {
     flex: 100%;
