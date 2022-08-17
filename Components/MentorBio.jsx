@@ -48,9 +48,6 @@ const MentorBio = () => (
       </Tag>,
     ]}
     extra={[]}
-    avatar={{
-      src: 'https://avatars.githubusercontent.com/u/29427058?v=4',
-    }}
   >
     <Content>{content}</Content>
     <Tag color="blue">TypeScript</Tag>

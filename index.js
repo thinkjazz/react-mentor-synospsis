@@ -10,14 +10,16 @@ import { Col, Row } from 'antd';
 
 ReactDOM.render(
   <div>
-    <Space direction="vertical" size="middle" style={{ display: 'flex' }}>
-      <Row>
-        <Col span={12}>
+    <Row>
+      <Col span={12}>
+        <Space direction="vertical" size="large" style={{ display: 'flex' }}>
           <MentorPhotoBlock />
           <MentorPrice />
-        </Col>
+        </Space>
+      </Col>
 
-        <Col span={12}>
+      <Col span={12}>
+        <Space direction="vertical" size="large" style={{ display: 'flex' }}>
           <Card>
             <MentorBio />
           </Card>
@@ -28,9 +30,9 @@ ReactDOM.render(
           <Card>
             <WorkExperience />
           </Card>
-        </Col>
-      </Row>
-    </Space>
+        </Space>
+      </Col>
+    </Row>
 
     <Row>
       <Col span={6}>col-6</Col>

@@ -10,9 +10,7 @@ const { Text } = Typography;
 const MentorPhotoBlock = () => (
   <Card
     hoverable
-    style={{
-      width: 300,
-    }}
+    style={{ width: 300 }}
     cover={
       <img
         alt="example"
