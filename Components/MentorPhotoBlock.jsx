@@ -11,7 +11,7 @@ const MentorPhotoBlock = () => (
   <Card
     hoverable
     style={{
-      width: 250,
+      width: 300,
     }}
     cover={
       <img

@@ -7,7 +7,7 @@ const MentorPrice = () => (
       title="Стоимость занятий"
       bordered={false}
       style={{
-        width: 250,
+        width: 300,
       }}
     >
       <p>Часовое занятие с ментором 1871₽/ час</p>
